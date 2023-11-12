@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submission</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Contact Us</h1>
+  <p>Fill up the form below to send us a message.</p>
+  <form action="/submit_form" method="post">
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="email" placeholder="you@company.com">
+
+    <label for="lname">Phone Number</label>
+    <input type="text" id="lname" name="phonenumber" placeholder="+44 20 7XXX XXXX">
+
+    <label for="subject">Your Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <div class="form-group center-button">
+      <input type="submit" value="Send Message">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
