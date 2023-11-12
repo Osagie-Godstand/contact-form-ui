@@ -5,6 +5,10 @@ This project demonstrates a simple form submission using Node.js and Express. Th
 
 
 
+## To run the program 
+- Use: node server.js
+
+
 
 
 
