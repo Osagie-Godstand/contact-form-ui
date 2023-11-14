@@ -6,7 +6,7 @@ This project demonstrates a simple form submission using Node.js and Express. Th
 ## To run the program 
 - Use: node server.js
 
-## Form Image
+## Contact Form Image
 ![Contact Form](https://github.com/Osagie-Godstand/contact-form-ui/blob/main/images/contact.jpg)
 
 
