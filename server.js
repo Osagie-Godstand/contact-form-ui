@@ -10,9 +10,9 @@ app.use(express.static('src'));
 
 // Handling form submission
 app.post('/submit_form', (req, res) => {
-  const { name, email, phonenumber, subject } = req.body;
+  const { name, email, phonenumber, message } = req.body;
   // Processing the form data as needed
-  console.log('Form data:', { name, email, phonenumber, subject });
+  console.log('Form data:', { name, email, phonenumber, message });
   // Responding to the client
   res.send('Form submitted successfully!');
 });
