@@ -24,7 +24,7 @@ const logError = (error) => {
 };
 
 // Handling form submission
-app.post('/submit_form', (req, res) => {
+app.post('/', (req, res) => {
   try {
     const { name, email, phonenumber, message } = req.body;
     // Processing the form data as needed
